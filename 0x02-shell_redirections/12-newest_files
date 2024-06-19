@@ -1,2 +1,2 @@
 #!/bin/bash
-files=$(ls -t | head -n 10) echo "$files"
+echo "$(ls -t | head -n 10)"

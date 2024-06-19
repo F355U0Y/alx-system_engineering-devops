@@ -1,4 +1,8 @@
 #!/bin/bash
+<<<<<<< HEAD
 if [ "$(stat -c '%U' hello)" = "guillaume" ]; then chown betty hello; fi
 
 
+=======
+[ $(stat -c %U hello) = "guillaume" ] && chown betty hello
+>>>>>>> 1c744e7a21bbfd7f4fb6eea719278d385039c12b

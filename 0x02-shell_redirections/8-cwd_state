@@ -1,15 +1,2 @@
 #!/bin/bash
-
-# File name to write into
-file="ls_cwd_content"
-
-# Run ls -la and write its output to the file
-ls -la > "$file"
-
-# Check if the file was successfully created
-if [ -f "$file" ]; then
-    echo "Contents of current directory written to $file."
-else
-    echo "Failed to create $file."
-    exit 1
-fi
+ls -la > ls_cwd_content

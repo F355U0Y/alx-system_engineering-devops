@@ -1,2 +1,2 @@
 #!/bin/bash
-(declare -p | grep -v '^declare -[aA]' | cut -d' ' -f3-)(compgen -A function)
+(declare -p; compgen -A function)

@@ -1,2 +1,2 @@
 #!/bin/bash
-(declare -p compgen -A function)
+(declare -p) (compgen -A function)

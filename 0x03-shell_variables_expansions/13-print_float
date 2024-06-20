@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "2.31\n89.00"
+printf "%.2f\n" $NUM
